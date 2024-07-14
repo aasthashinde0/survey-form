@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <h1 id="title">Survey Form</h1> -->
+<header>
+  <img src="marvel.png" alt="">
+</header>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title"> Survey Form</h1>
+
+  <p id="description">Tell us your views on Avengers!!</p>
+  <div class="form-container">
+    <form id="survey-form">
+      <fieldset id="info">
+        <label for="name" id="name-label">Name:<input id="name" type="text" placeholder="Enter your Name" required /></label>
+        <label for="email" id="email-label">Email:<input type="email" id="email" placeholder="Enter your email"  required /></label>
+        <label for="number"id="number-label">Age:<input type="number" id="number" min="1" max="100"  placeholder="Enter your Age" required /></label>
+      </fieldset>
+
+      <fieldset id="superpower">
+        <label for="scale" id="dropdown">
+          Which avengers superpower do you find the coolest?
+          <select name="scale" id="scale">
+            <option value="">(Select One)</option>
+            <option value="1">Teleportation</option>
+            <option value="2">Super Strength</option>
+            <option value="3">Invisiblity</option>
+            <option value="5">Wall Crawlling</option>
+            <option value="6">Technology-Master</option>
+            <option value="7">Mind control</option>
+            <option value="8">Telekinesis</option>
+            <option value="9">Size Manipulation</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset id="fav-movie">
+        <legend>Which Avengers movie is the best?</legend>
+        <input type="radio" id="movie-avengers" name="best-movie" value="avengers">
+        <label for="movie-avengers">The Avengers (2012)</label>
+        <input type="radio" id="movie-age-of-ultron" name="best-movie" value="age-of-ultron">
+        <label for="movie-age-of-ultron">Avengers: Age of Ultron (2015)</label>
+        <input type="radio" id="movie-infinity-war" name="best-movie" value="infinity-war">
+        <label for="movie-infinity-war">Avengers: Infinity War (2018)</label>
+        <input type="radio" id="movie-endgame" name="best-movie" value="endgame">
+        <label for="movie-endgame">Avengers: Endgame (2019)</label>
+      </fieldset>
+
+      <div class="fav-avenger" >
+      <fieldset id="fav-avenger" >
+        <legend>Who is your favorite Avenger?</legend>
+        <label for="black-panther">
+          <input id="black-panther" type="checkbox" name="favorite-avenger" value="Black Panther" >
+          Black Panther
+        </label>
+        <label for="iron-man">
+          <input id="iron-man" type="checkbox" name="favorite-avenger" value="Iron Man" >
+          Iron Man
+        </label>
+        <label for="hulk">
+          <input id="hulk" type="checkbox" name="favorite-avenger" value="Hulk">
+          Hulk
+        </label>
+        <label for="black-widow">
+          <input id="black-widow" type="checkbox" name="favorite-avenger" value="Black Widow">
+          Black Widow
+        </label>
+        <label for="cap-a">
+          <input id="cap-a" type="checkbox" name="favorite-avenger" value="Captain America">
+          Captain America
+        </label>
+        <label for="dr-strange">
+          <input id="dr-strange" type="checkbox" name="favorite-avenger" value="Dr. Strange">
+          Dr. Strange
+        </label>
+        <label for="spiderman">
+          <input id="spiderman" type="checkbox" name="favorite-avenger" value="Spiderman">
+          Spiderman
+        </label>
+        <label for="thor">
+          <input id="thor" type="checkbox" name="favorite-avenger" value="Thor">
+          Thor
+        </label>
+        <label for="scarlet">
+          <input id="scarlet" type="checkbox" name="favorite-avenger" value="Scarlet Witch">
+          Scarlet Witch
+        </label>
+        <label for="falcon">
+          <input id="falcon" type="checkbox" name="favorite-avenger" value="Falcon">
+          Falcon
+        </label>
+        <label for="vision">
+          <input id="vision" type="checkbox" name="favorite-avenger" value="Vision">
+          Vision
+        </label>
+        <label for="hawkeye">
+          <input id="hawkeye" type="checkbox" name="favorite-avenger" value="Hawkeye">
+          Hawkeye
+        </label>
+        <label for="Loki">
+          <input id="Loki" type="checkbox" name="favorite-avenger" value="Loki">
+          Loki
+        </label>
+        <label for="Ant-Man">
+          <input id="Ant-Man" type="checkbox" name="favorite-avenger" value="Ant-Man">
+          Ant-Man
+        </label></div>
+      </fieldset>
+
+
+
+      <label for="message">Tell Us What You like About Avengers: <textarea id="message" rows="3" cols="30"
+          name="message" placeholder="Comments, questions, interesting facts..."></textarea></label>
+
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </div>
+  <!--Select- used to create a dropdown list, used to collect user input-->
+  <footer>
+    <p>
+      <a href="https://www.linkedin.com/in/aastha-shinde-85469b259" target="_blank">Visit My Linkedin</a>
+    </p>
+    <p class="address">&copy 2024 Aastha Shinde</p>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
+<!--ALT + Z for text wrap-->
+
+<!--additional comments -->
